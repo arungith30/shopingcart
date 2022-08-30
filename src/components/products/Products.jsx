@@ -8,7 +8,8 @@ let Products = [
   },
   {
     title: "Special Item",
-    price: "$20.00 $18.00",
+    price: "$18.00",
+    offer: "$20.00",
     type: "Add to cart",
     sale: "true",
     ratings: "true",
@@ -29,7 +30,8 @@ let Products = [
   },
   {
     title: "Sale Item",
-    price: "$50.00 $25.00",
+    price: " $25.00",
+    offer: "$50.00",
     type: "Add to cart",
     sale: "true",
     ratings: "false",
@@ -43,7 +45,8 @@ let Products = [
   },
   {
     title: "Special Item",
-    price: "$20.00 $18.00",
+    price: " $18.00",
+    offer: "$20.00",
     type: "Add to cart",
     sale: "true",
     ratings: "true",

@@ -29,7 +29,10 @@ function Cards() {
                 )}
               </p>
 
-              <p>{item.price}</p>
+              <p>
+                <span> {item.offer}</span>
+                {item.price}
+              </p>
 
               <div
                 className={
@@ -43,12 +46,6 @@ function Cards() {
         })}
       </div>
     </div>
-
-    //  let stars=function stars() {
-    //   for (let i = 0; i < 3; i++) {
-    //     <i class="fa fa-star" aria-hidden="true"></i>;
-    //   }
-    // }
   );
 }
 
