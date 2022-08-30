@@ -16,7 +16,8 @@ let Products = [
   },
   {
     title: "Sale Item",
-    price: "$50.00 $25.00",
+    price: "$ $25.00",
+    offer: "$50.00",
     type: "Add to cart",
     sale: "true",
     ratings: "false",
