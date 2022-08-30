@@ -36,6 +36,7 @@ nav {
   line-height: 30px;
   border-radius: 10px;
   border: rgb(134, 134, 134) light; 
+  
 }
 
 
@@ -140,9 +141,11 @@ nav {
 .navbar-mobile-open
 {
 margin-bottom: 250px;
+transition: all 0.5s ease-in-out;
 }
 .navbar-mobile-close{
 margin: 0px;
+transition: all 0.5s ease-in-out;
 }
 .logo {
     font-weight: 100;
@@ -181,6 +184,7 @@ margin: 0px;
     margin-bottom: 10px;
     width: 100%;
     text-align: start;
+    transition: all 0.5s ease-in-out;
   }
 .menu-list li :hover
 {
@@ -241,6 +245,7 @@ margin: 0px;
     line-height: 20px;
     border-radius: 10px;
     border: rgb(134, 134, 134) light; 
+    transition: all 0.5s ease-in-out;
     
   }
 
@@ -255,7 +260,6 @@ margin: 0px;
   .showlist li:active{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    transition: all 0.5s ease-in-out;
     cursor: pointer;
   
   }

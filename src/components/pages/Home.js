@@ -1,8 +1,10 @@
 import "./home.css";
 import Cards from "../cards/Cards";
+
 function Home() {
   return (
     <div className="home-page">
+
       <div className="home-banner">
         <div className="page-heading">
           <div className="text-middle">
