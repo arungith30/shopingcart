@@ -30,10 +30,8 @@ function Cards() {
               </p>
 
               <p>
-                <span>
-                  {" "}
-                  <strike>{item.offer}</strike>
-                </span>
+                <strike>{item.offer}</strike>
+
                 {item.price}
               </p>
 
